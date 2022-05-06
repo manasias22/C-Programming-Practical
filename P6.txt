@@ -1,0 +1,33 @@
+#include<stdio.h>
+int main() 
+{
+int a, num1, num2;
+printf("Enter two Numbers\n");
+scanf("%d %d",&num1,&num2);
+printf("Enter your choice as \n 1-Add\n 2-subtract \n 3-multiply \n 4-Divide \n");
+scanf("%d",&a);
+if(a==1)
+{
+printf("The sum is %d \n",num1+num2);
+}
+else if(a==2)
+{
+printf("The difference is %d \n",num1-num2);
+}
+else if(a==3)
+{
+printf("The product is %d \n", num1*num2);
+}
+else if(a==4)
+{
+printf("The division is %d \n", num1/num2);
+}
+else
+{
+printf("Wrong input");
+}
+return 0;
+}
+
+
+OUTPUT :- When we enter number 4 and 5 and when choosed a as 3 we got multiplication of 4 and 5 i.e. 20.
