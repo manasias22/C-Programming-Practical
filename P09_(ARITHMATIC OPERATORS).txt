@@ -1,0 +1,36 @@
+//Demonstration of Arithmetic operators (+, -, *, /, %)//
+
+#include <stdio.h>
+
+int main()
+{
+    int a,b;
+    float c;
+    a = 5;
+    b = 3;
+    c = a+b;
+    printf("Sum of %d and %d is %.2f\n", a,b,c);
+    c = a-b;
+    printf("Difference of %d and %d is %.2f\n", a,b,c);
+    c = a*b;
+    printf("Product of %d and %d is %.2f\n", a,b,c);
+    c = a/b;
+    printf("Integer Division of %d by %d is %.2f\n", a,b,c);
+    c = (float)a/b;
+    printf("Real Division of %d by %d is %.2f\n", a,b,c);
+    c = a%b;
+    printf("Remainder of %d by %d is %.2f\n", a,b,c);
+    return 0;
+}
+
+
+
+
+
+OUTPUT:
+Sum of 5 and 3 is 8
+Difference of 5 and 3 is 2
+Product of 5 and 3 is 15
+Integer Division of 5 by 3 is 1.6 
+Real Division of 3 is 1
+Remainder of 5 by 3 is 2
