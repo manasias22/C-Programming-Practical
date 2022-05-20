@@ -19,7 +19,7 @@ int main()
     {
         printf("c is greatest\n");
     }
-    if((a == 0) || (a == 0) || (c == 0))
+    if((a == 0) || (b == 0) || (c == 0))
     {
         printf("The product of a,b and c is zero\n");
     }
