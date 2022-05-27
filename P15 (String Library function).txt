@@ -1,0 +1,22 @@
+//Length of a string//
+
+#include <stdio.h>
+#include<string.h>
+
+int main()
+{
+    char arr[] = "Mrudul";
+    int len1 = strlen(arr);
+    
+    printf("String = %s Length = %d\n", arr, len1);
+
+    return 0;
+}
+
+
+
+
+OUTPUT:
+String = Mrudul Length = 7
+
+
